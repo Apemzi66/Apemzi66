@@ -1,0 +1,24 @@
+.rouge{
+    /* JAMAIS FAIRE ÇA */
+    height: 300px;
+    /* Mettre une hauteur fixe en BS */
+    background-color: red;
+}
+.bleu{
+    height: 300px;
+    background-color: blue;
+}
+.jaune{
+    height: 300px;
+    background-color: yellow;
+}
+.vert{
+    height: 300px;
+    background-color: green;
+}
+
+.bg{
+    background-image: url("../");
+    background-size: cover;
+    height: 300px;
+}
