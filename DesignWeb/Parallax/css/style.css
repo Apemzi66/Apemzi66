@@ -1,0 +1,36 @@
+html,body{
+    font-size: 10px;
+    min-heightheight: 100%;
+}
+
+html,body{
+    height: 100%;
+}
+
+.bg {
+    background-size: cover;
+}
+.bg::after {
+    content: "";
+    background-image: url("../images/bart.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../images/spg.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
