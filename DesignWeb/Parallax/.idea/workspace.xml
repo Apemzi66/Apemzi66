@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,6 +71,18 @@
       <option name="presentableId" value="Default" />
       <updated>1569511150628</updated>
       <workItem from="1569511151980" duration="2352000" />
+      <workItem from="1569797010448" duration="1024000" />
+      <workItem from="1569870988331" duration="6006000" />
+      <workItem from="1569886598485" duration="3703000" />
+      <workItem from="1569932178446" duration="5344000" />
+      <workItem from="1570058673882" duration="3927000" />
+      <workItem from="1570113591778" duration="16000" />
+      <workItem from="1570113664568" duration="263000" />
+      <workItem from="1570552284952" duration="73000" />
+      <workItem from="1571342535745" duration="514000" />
+      <workItem from="1571343318686" duration="680000" />
+      <workItem from="1571344020543" duration="15000" />
+      <workItem from="1571442111953" duration="593000" />
     </task>
     <servers />
   </component>
@@ -82,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,6 +1,9 @@
 html,body{
     font-size: 10px;
-    min-heightheight: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 html,body{
@@ -9,10 +12,14 @@ html,body{
 
 .bg {
     background-size: cover;
+    min-height: 500px;
+    left:0;
+    right:0;
+    position: absolute;
 }
 .bg::after {
     content: "";
-    background-image: url("../images/bart.jpg");
+    background-image: url("../images/spg.jpg");
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -33,4 +40,54 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bgOpaque{
+    background-color: rgba(255,255,0,.75);
+}
+.bgOpaque1{
+    background-color: rgba(255,255,255,.75);
+    height: 6rem;
+}
+
+.heightpage{
+    height: 632px;
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../images/sandy.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../images/squid.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textwhite{
+    color: white;
+}
+margin{
+    margin-block: auto;
+}
+.height1{
+    height: 85%;
+}
+.height2{
+    height: 15%;
 }

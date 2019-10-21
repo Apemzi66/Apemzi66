@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe6b4eb-1544-47be-addf-b0d0356aaf88" name="Default Changelist" comment="" />
+    <list default="true" id="8372ca77-c3ee-4459-9f92-e199ed272f00" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -24,26 +23,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1QPyESzhTR6M4b5yj2we300IVlN" />
+  <component name="ProjectId" id="1RhJtQKwMEQ3PpV1h4G3bW2Gjkl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Parallax" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alexandre\PhpstormProjects\HelloBootstrap\js" />
-      <recent name="C:\Users\Alexandre\PhpstormProjects\HelloBootstrap" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre\Documents\GitHub\Apemzi66\Apemzi66\DesignWeb\Form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,20 +59,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fe6b4eb-1544-47be-addf-b0d0356aaf88" name="Default Changelist" comment="" />
-      <created>1567686413084</created>
+      <changelist id="8372ca77-c3ee-4459-9f92-e199ed272f00" name="Default Changelist" comment="" />
+      <created>1570113608072</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567686413084</updated>
-      <workItem from="1567686414560" duration="5133000" />
-      <workItem from="1567703564505" duration="35000" />
-      <workItem from="1568056426436" duration="6096000" />
-      <workItem from="1568071960409" duration="25000" />
-      <workItem from="1568117693119" duration="1819000" />
-      <workItem from="1570114246945" duration="12000" />
-      <workItem from="1570552267430" duration="16000" />
-      <workItem from="1570553286134" duration="25000" />
-      <workItem from="1571342499751" duration="33000" />
+      <updated>1570113608072</updated>
+      <workItem from="1570113609310" duration="3020000" />
+      <workItem from="1570490192498" duration="103000" />
+      <workItem from="1570490459662" duration="4270000" />
+      <workItem from="1570551341858" duration="739000" />
+      <workItem from="1571528310175" duration="110000" />
     </task>
     <servers />
   </component>
