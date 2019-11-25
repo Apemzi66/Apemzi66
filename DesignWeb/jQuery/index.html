@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>PhotoCiti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row align-items-center text-center">
+        <div class="col-12">
+            <h1 class="d-print-none">PhotoCiti</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-2 col-8">
+            <form>
+                <div class="form-group align-items-center d-print-none">
+                    <h3>PhotoCiti </h3>
+                    <div class="input-group mb-3 d-print-none">
+                        <input maxlength="12" minlength="3" type="text" class="form-control" placeholder="Un mot entre 3 à 12 caractères" aria-label="Recipient's username" aria-describedby="basic-addon2" id="mot">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="send">Envoyer</button>
+                        </div>
+                    </div>
+                    <p class="d-print-none">Utilisez = pour les caractères spéciaux</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container py-5">
+    <small class="invalid" id="court">Votre mot est trop court.</small>
+    <small class="invalid" id="long">Votre mot est trop long.</small>
+    <div id="profile" class="row no-gutters px-0 mx-0 bg1 bg2 bg3 bg4 bg5 bg6 bg">
+        <div class="col-1 px-2"><img  src="Letters/B/B1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/R/R1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/U/U1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img src="Letters/H/H1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/B/B1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/R/R1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/U/U1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/H/H1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/B/B1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/R/R1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/U/U1.jpg" height="100%" width="100%"/></div>
+        <div class="col-1 px-2"><img  src="Letters/H/H1.jpg" height="100%" width="100%"/></div>
+    </div>
+</div>
+
+<div id="bgColor" class="container-fluid">
+    <div class="form-group offset-2 col-md-4 d-print-none">
+        <label for="inputState">Choisir couleur de fond.</label>
+        <select id="inputState" class="form-control">
+            <option value="0" selected>Blanc</option>
+            <option value="1">Bleu</option>
+            <option value="2">Bleu Foncé</option>
+            <option value="3">Gris</option>
+            <option value="4">Noir</option>
+            <option value="5">Rose</option>
+            <option value="6">Rouge</option>
+        </select>
+    </div>
+</div>
+<div class="offset-2 d-print-none">
+    <button type="button" class="btn btn-dark">Imprimer</button>
+</div>
+<div class="container h-100">
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog mx-auto my-auto p-0" role="document">
+            <div class="container-fluid pl-xl-0 pl-md-0 py-sm-0">
+                <div class="modal-content my-0 mx-0 ">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active h-100 ">
+                                <img class="img-fluid" height="100%" width="100%" src="Letters/A/A2.jpg" img/>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img class="img-fluid" height="100%" width="100%" src="Letters/A/A3.jpg" img/>
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img class="img-fluid" height="100%" width="100%" src="Letters/A/A4.jpg" img/>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
