@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comicon</title>
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Bootstrap/css/style.css">
+
+    <script src="JS/jquery-3.3.1.min.js" defer></script>
+    <script src="Bootstrap/js/bootstrap.js" defer></script>
+    <script src="JS/comicbruh.js" defer></script>
+
+
+</head>
+<body>
+<div class="container">
+    <h2>Inscription Comicon 2019</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Nom d'usager:</label>
+            <input type="username" class="form-control" id="username" placeholder="Entrez votre nom d'usager">
+            <small id="small">bruh</small>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Entrez votre mot de passe">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="pwd1" placeholder="Entrez votre mot de passe à nouveau">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Entrez votre adresse courriel">
+        </div>
+
+        <div class="btn-group btn-group-toggle">
+                <input type="radio" name="options" id="btnstarwars" > Star Wars
+                <input type="radio" name="options" id="btnmarvel"> Marvel
+                <input type="radio" name="options" id="btndc"> DC
+        </div>
+        <br>
+
+    <div id="sw" class="container-fluid">
+        <img src="images/yoda.jpg" height=70% width=30%/>
+        <div class="form-group col-md-4">
+            <label for="inputState">Choisir votre costume</label>
+            <select id="inputState" class="form-control">
+                <option selected>Yoda</option>
+                <option>Obiwan</option>
+                <option>Darth Vader</option>
+                <option>Jaba</option>
+                <option>Autre...</option>
+            </select>
+        </div>
+    </div>
+        <div id="mcu" class="container-fluid">
+            <img src="images/spider.jpg" height=70% width=30%/>
+            <div class="form-group col-md-4">
+                <label for="inputState">Choisir votre costume</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Spiderman</option>
+                    <option>Hulk</option>
+                    <option>Thor</option>
+                    <option>Iron man</option>
+                    <option>Autre...</option>
+                </select>
+            </div>
+        </div>
+        <div id="dc" class="container-fluid">
+            <img src="images/batman.jpg" height=70% width=30%/>
+            <div class="form-group col-md-4">
+                <label for="inputState">Choisir votre costume</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Batman</option>
+                    <option>Flash</option>
+                    <option>Superman</option>
+                    <option>Arrow</option>
+                    <option>Autre...</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default my-3">Submit</button>
+    </form>
+</div>
+
+
+
+
+
+</body>
+</html>

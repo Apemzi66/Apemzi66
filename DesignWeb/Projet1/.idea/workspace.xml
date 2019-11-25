@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/Git Bash.lnk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +76,12 @@
       <workItem from="1571343388456" duration="4512000" />
       <workItem from="1571421727361" duration="15317000" />
       <workItem from="1571494245447" duration="21251000" />
-      <workItem from="1571612624251" duration="3408000" />
+      <workItem from="1571612624251" duration="4117000" />
+      <workItem from="1571686806278" duration="47000" />
+      <workItem from="1571687040561" duration="66000" />
+      <workItem from="1571687428941" duration="201000" />
+      <workItem from="1571748141026" duration="22000" />
+      <workItem from="1574472816826" duration="153000" />
     </task>
     <servers />
   </component>

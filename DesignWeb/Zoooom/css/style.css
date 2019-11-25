@@ -1,0 +1,51 @@
+html,body { margin:0; height:100%;}
+.bc{
+    background-image: url("../img/ohyeah.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height:100%;
+}
+.bg{
+    transition: all .2s ease;
+    background-image: url("../img/pet1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100%;
+}
+.bg1{
+    transition: all .2s ease;
+    background-image: url("../img/pet2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100%;
+}
+.bg2{
+    transition: all .2s ease;
+    background-image: url("../img/pet3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 100%;
+}
+.grosseBoite{
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+}
+
+.bg:hover{
+    transform: scale(1.1);
+}
+.bg1:hover{
+    transform: scale(1.1);
+}
+.bg2:hover{
+    transform: scale(1.1);
+}

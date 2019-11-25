@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +70,8 @@
       <workItem from="1570490103825" duration="5642000" />
       <workItem from="1571343765792" duration="45000" />
       <workItem from="1571528295122" duration="13000" />
+      <workItem from="1573503717677" duration="831000" />
+      <workItem from="1574109421193" duration="104000" />
     </task>
     <servers />
   </component>

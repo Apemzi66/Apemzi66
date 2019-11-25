@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ComicCon" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,6 +69,8 @@
       <workItem from="1570490459662" duration="4270000" />
       <workItem from="1570551341858" duration="739000" />
       <workItem from="1571528310175" duration="110000" />
+      <workItem from="1573142020482" duration="69000" />
+      <workItem from="1573744914735" duration="14000" />
     </task>
     <servers />
   </component>
