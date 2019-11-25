@@ -34,7 +34,7 @@ $(document).on('keypress',function(e) {
 	}
 });
 $(".btn").click(function valeur() {
-	var value=$('#mot').val();
+	var value=$('#mot').val().toUpperCase();
 	//Value = la lettre
 	var length=value.length;
 	for (i=0; i<length[i];i++) {
