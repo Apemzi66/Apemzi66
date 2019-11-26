@@ -34,13 +34,14 @@ $(document).on('keypress',function(e) {
 	}
 });
 $(".btn").click(function valeur() {
-	var value=$('#mot').val().toUpperCase();
+	var value=$('#mot').val();
 	//Value = la lettre
 	var length=value.length;
 	for (i=0; i<length[i];i++) {
 		length[i] = value[i];
-		if (value[i]==="*"{
+		if (value[i]==="*"){
 			value[i]="=";
+			return(value[i]);
 		}
 	}
 
@@ -91,6 +92,14 @@ $( "#inputState" ).change(function() {
 		$('#profile').removeClass('bg bg2 bg3 bg4 bg5 bg1').addClass('bg6');
 	}
 });
+
+
+
+
+
+
+
+
 
 
 
