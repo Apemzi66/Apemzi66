@@ -33,8 +33,8 @@ $(document).on('keypress',function(e) {
 		$('#send').click()
 	}
 });
-$(".btn").click(function valeur().toUpperCase(){
-	var value=$('#mot').val();
+$(".btn").click(function valeur(){
+	var value=$('#mot').val().toUpperCase();
 	//Value = la lettre
 	var length=value.length;
 	for (i=0; i<length[i];i++) {
