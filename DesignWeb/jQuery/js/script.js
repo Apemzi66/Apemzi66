@@ -39,8 +39,8 @@ $(".btn").click(function valeur() {
 	var length=value.length;
 	for (i=0; i<length[i];i++) {
 		length[i] = value[i];
-		if (value[i]==="="{
-			value[i]="*";
+		if (value[i]==="*"{
+			value[i]="=";
 		}
 	}
 
