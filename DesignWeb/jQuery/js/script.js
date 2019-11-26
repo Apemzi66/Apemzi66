@@ -33,7 +33,7 @@ $(document).on('keypress',function(e) {
 		$('#send').click()
 	}
 });
-$(".btn").click(function valeur().toUpperCase{
+$(".btn").click(function valeur().toUpperCase(){
 	var value=$('#mot').val();
 	//Value = la lettre
 	var length=value.length;
