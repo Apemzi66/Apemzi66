@@ -33,7 +33,7 @@ $(document).on('keypress',function(e) {
 		$('#send').click()
 	}
 });
-$(".btn").click(function valeur(){
+$(".btn").click(function valeur() {
 	var value=$('#mot').val().toUpperCase();
 	//Value = la lettre
 	var length=value.length;
@@ -92,18 +92,3 @@ $( "#inputState" ).change(function() {
 		$('#profile').removeClass('bg bg2 bg3 bg4 bg5 bg1').addClass('bg6');
 	}
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
